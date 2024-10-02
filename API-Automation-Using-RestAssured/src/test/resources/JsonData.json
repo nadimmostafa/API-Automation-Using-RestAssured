@@ -1,0 +1,90 @@
+[
+	{
+		"firstname": "Nadim",
+		"lastname": "Mostafa",
+		"age": 27,
+		"gender": "Male",
+		"address": [
+			{
+				"city": "Chapainawabgonj",
+				"country": "Bangladesh"
+			},
+			{
+				"city": "Rajshahi",
+				"country": "Bangladesh"
+			}
+		]
+	},
+	{
+		"firstname": "Mustak",
+		"lastname": "Kafi",
+		"age": 23,
+		"gender": "Male",
+		"address": [
+			{
+				"city": "Rajshahi",
+				"country": "Bangladesh"
+			},
+			{
+				"city": "Dhaka",
+				"country": "Bangladesh"
+			}
+		]
+	},
+	{
+		"firstname": "Sadia",
+		"lastname": "Jahan",
+		"age": 18,
+		"gender": "Female",
+		"address": [
+			{
+				"city": "Dhaka",
+				"country": "Bangladesh"
+			}
+		]
+	},
+	{
+		"firstname": "Halima",
+		"lastname": "Khatun",
+		"age": 30,
+		"gender": "Female",
+		"address": [
+			{
+				"city": "Khulna",
+				"country": "Bangladesh"
+			}
+		]
+	},
+	{
+		"firstname": "Mehjabin",
+		"lastname": "Mim",
+		"age": 12,
+		"gender": "Female",
+		"address": [
+			{
+				"city": "Chapainawabgonj",
+				"country": "Bangladesh"
+			},
+			{
+				"city": "Kushtia",
+				"country": "Bangladesh"
+			}
+		]
+	},
+	{
+		"firstname": "Jaynab",
+		"lastname": "b",
+		"age": 3,
+		"gender": "female",
+		"address": [
+			{
+				"city": "Chapainawabgonj",
+				"country": "Bangladesh"
+			},
+			{
+				"city": "Kushtia",
+				"country": "Bangladesh"
+			}
+		]
+	}
+]
