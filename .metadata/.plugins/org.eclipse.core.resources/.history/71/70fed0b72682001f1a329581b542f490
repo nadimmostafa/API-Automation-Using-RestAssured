@@ -1,0 +1,9 @@
+package org.nadim.pojo;
+
+public class P3Student {
+	private int sId;
+	private String sname;
+	private String dept;
+	private String gender;
+	
+}

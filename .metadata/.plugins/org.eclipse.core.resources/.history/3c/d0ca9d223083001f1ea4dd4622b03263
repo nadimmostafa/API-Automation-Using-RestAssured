@@ -1,0 +1,5 @@
+package org.nadim.jacksonapi;
+
+public class Student {
+
+}

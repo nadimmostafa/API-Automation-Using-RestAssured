@@ -1,0 +1,16 @@
+package org.nadim.jsonto.javapojo;
+
+public class P1CreateJsonSimpleObjUsingJavaPojo {
+
+	public static void main(String[] args) {
+		P1EmployeePojo e = new P1EmployeePojo();
+		
+		e.setStdId(11);
+		e.setSname("Nadim Mostafa");
+		e.setGender("Male");
+		e.setMarried(false);
+		e.setSalary(45000.00);
+
+	}
+
+}

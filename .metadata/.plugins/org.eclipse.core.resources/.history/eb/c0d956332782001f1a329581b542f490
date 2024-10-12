@@ -1,0 +1,17 @@
+package org.nadim.jsonto.javapojo;
+
+import org.nadim.pojo.StudentAddress;
+
+public class P4CreateComplexJsonUsingJavaPojo {
+
+	public static void main(String[] args) {
+		
+		StudentAddress addr = new StudentAddress();
+		addr.setCity("Dhaka");
+		addr.setState("Mirpur-6");
+		addr.setHouseNo("57/58");
+		addr.setRoadNo("#004");
+
+	}
+
+}

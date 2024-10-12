@@ -1,0 +1,19 @@
+package org.nadim.jacksonapi;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class P3WriteJsonObjectUsingJackson {
+
+	public static void main(String[] args) {
+		Student st = new Student();
+		st.setName("Asif");
+		st.setAge(29);
+		st.setGender("male");
+		st.setMarriedStatus(true);
+		
+		ObjectMapper m = new ObjectMapper();
+		m.writerWithDefaultPrettyPrinter().writeValue(new , m);
+
+	}
+
+}

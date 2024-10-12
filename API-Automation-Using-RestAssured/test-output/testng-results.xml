@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-19T12:54:28 BDT" name="Default suite" finished-at="2024-09-19T12:54:36 BDT" duration-ms="8071">
+  <suite started-at="2024-10-03T23:19:16 BDT" name="Default suite" finished-at="2024-10-03T23:19:24 BDT" duration-ms="8296">
     <groups>
     </groups>
-    <test started-at="2024-09-19T12:54:28 BDT" name="Default test" finished-at="2024-09-19T12:54:36 BDT" duration-ms="8071">
-      <class name="org.nadim.restful.bookingapp.P10_AvoidCodeDuplicationUsingResSpecification">
-        <test-method is-config="true" signature="tearDownSpecification()[pri:0, instance:org.nadim.restful.bookingapp.P10_AvoidCodeDuplicationUsingResSpecification@6fdbe764]" started-at="2024-09-19T12:54:28 BDT" name="tearDownSpecification" finished-at="2024-09-19T12:54:29 BDT" duration-ms="826" status="PASS">
+    <test started-at="2024-10-03T23:19:16 BDT" name="Default test" finished-at="2024-10-03T23:19:24 BDT" duration-ms="8296">
+      <class name="org.nadim.jsonpayloadconverting.P8ShareDataOneAPIToAPI">
+        <test-method signature="createBooking()[pri:1, instance:org.nadim.jsonpayloadconverting.P8ShareDataOneAPIToAPI@7bab3f1a]" started-at="2024-10-03T23:19:16 BDT" name="createBooking" finished-at="2024-10-03T23:19:23 BDT" duration-ms="6653" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownSpecification -->
-        <test-method signature="booking1()[pri:0, instance:org.nadim.restful.bookingapp.P10_AvoidCodeDuplicationUsingResSpecification@6fdbe764]" started-at="2024-09-19T12:54:29 BDT" name="booking1" finished-at="2024-09-19T12:54:34 BDT" duration-ms="5578" status="PASS">
+        </test-method> <!-- createBooking -->
+        <test-method signature="retrieveBookingData()[pri:0, instance:org.nadim.jsonpayloadconverting.P8ShareDataOneAPIToAPI@7bab3f1a]" started-at="2024-10-03T23:19:23 BDT" name="retrieveBookingData" finished-at="2024-10-03T23:19:24 BDT" depends-on-methods="org.nadim.jsonpayloadconverting.P8ShareDataOneAPIToAPI.createBooking" duration-ms="1512" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- booking1 -->
-        <test-method signature="booking2()[pri:0, instance:org.nadim.restful.bookingapp.P10_AvoidCodeDuplicationUsingResSpecification@6fdbe764]" started-at="2024-09-19T12:54:34 BDT" name="booking2" finished-at="2024-09-19T12:54:36 BDT" duration-ms="1591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- booking2 -->
-      </class> <!-- org.nadim.restful.bookingapp.P10_AvoidCodeDuplicationUsingResSpecification -->
+        </test-method> <!-- retrieveBookingData -->
+      </class> <!-- org.nadim.jsonpayloadconverting.P8ShareDataOneAPIToAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

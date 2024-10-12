@@ -1,0 +1,14 @@
+package org.nadim.jsonpayload;
+
+public class P1CreateSimpleJsonPayloadUsingJavaMap {
+
+	public P1CreateSimpleJsonPayloadUsingJavaMap() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

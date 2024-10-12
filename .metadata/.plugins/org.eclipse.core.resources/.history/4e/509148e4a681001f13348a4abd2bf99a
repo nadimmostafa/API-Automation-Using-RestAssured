@@ -1,0 +1,9 @@
+package org.nadim.jsonpayloadconverting;
+
+public class P7DynamicJsonResponseToJavaObject {
+
+	public P7DynamicJsonResponseToJavaObject() {
+		
+	}
+
+}

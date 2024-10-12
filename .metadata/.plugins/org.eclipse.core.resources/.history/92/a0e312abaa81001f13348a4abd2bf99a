@@ -1,0 +1,12 @@
+package org.nadim.jsonpayloadconverting;
+
+import org.testng.annotations.Test;
+
+public class P8ShareDataOneAPIToAPI {
+
+	@Test(priority=1)
+	public void createResourse() {
+		
+	}
+
+}

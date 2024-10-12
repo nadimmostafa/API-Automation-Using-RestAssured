@@ -1,0 +1,22 @@
+package org.nadim.jacksonapi;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class P3WriteJsonObjectUsingJackson {
+
+	public static void main(String[] args) throws JsonProcessingException {
+		Student st = new Student();
+		st.setName("Asif");
+		st.setAge(29);
+		st.setGender("male");
+		st.setMarriedStatus(true);
+		
+		ObjectMapper m = new ObjectMapper();
+		String jsonObject = m.writerWithDefaultPrettyPrinter().writeValueAsString(m);
+		
+		System.out.println(jsonObject);
+
+	}
+
+}

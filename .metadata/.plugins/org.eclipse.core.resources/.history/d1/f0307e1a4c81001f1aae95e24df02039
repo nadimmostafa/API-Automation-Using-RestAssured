@@ -1,0 +1,34 @@
+package org.nadim.jsonpayloadconverting;
+/*
+ [
+  {
+    "id": 1,
+    "fname": "nadim",
+    "lname": "mostafa",
+    "gender": "male",
+    "married-status": false,
+    "address": {
+      "state": "Dhaka",
+      "zip code": 1216,
+      "house no": "57/58",
+      "road": 4
+    }
+  },
+  {
+    "id": 2,
+    "fname": "Asif",
+    "lname": "Iqbal",
+    "gender": "male",
+    "married-status": false,
+    "address": "Rajshahi"
+  }
+]
+ */
+public class P3CreateJsonArrayUsingJavaList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

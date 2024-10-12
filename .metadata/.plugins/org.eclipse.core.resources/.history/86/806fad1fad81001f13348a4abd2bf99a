@@ -1,0 +1,13 @@
+package org.nadim.jsonto.javapojo;
+
+public class P1CreateJsonSimpleObjUsingJavaPojo {
+
+	public static void main(String[] args) {
+		P1EmployeePojo e = new P1EmployeePojo();
+		
+		e.getStdId(11);
+		
+
+	}
+
+}

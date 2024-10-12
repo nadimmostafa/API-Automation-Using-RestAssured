@@ -1,0 +1,10 @@
+package org.nadim.jsonto.javapojo;
+
+public class P9ConvertJsonArrayToPojo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

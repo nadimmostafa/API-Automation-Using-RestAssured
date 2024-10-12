@@ -1,0 +1,13 @@
+package org.nadim.jsonpayloadconverting;
+
+import io.restassured.RestAssured;
+
+public class P7DynamicJsonResponseToJavaObject {
+
+	public P7DynamicJsonResponseToJavaObject() {
+		Object obj = RestAssured.given()
+					   .get("https://run.mocky.io/v3/7ee8c6c6-8da2-4a1a-ac9a-6864974083ca")
+					   .as(Object.class);
+	}
+
+}

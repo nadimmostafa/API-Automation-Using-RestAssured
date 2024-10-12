@@ -1,0 +1,9 @@
+package org.nadim.pojo;
+
+public class P1EmployeeDetails {
+	private int empId;
+	private String empName;
+	private String empGender;
+	private String email;
+	private P2EmployeeAddress adress;
+}

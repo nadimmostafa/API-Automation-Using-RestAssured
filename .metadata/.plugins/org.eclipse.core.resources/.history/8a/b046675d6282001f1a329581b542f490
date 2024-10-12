@@ -1,0 +1,14 @@
+package org.nadim.jsonto.javapojo;
+
+import io.restassured.RestAssured;
+
+public class P6ConvertSimpleJsonToPojo {
+
+	public static void main(String[] args) {
+		
+		RestAssured.given()
+						.get();
+
+	}
+
+}

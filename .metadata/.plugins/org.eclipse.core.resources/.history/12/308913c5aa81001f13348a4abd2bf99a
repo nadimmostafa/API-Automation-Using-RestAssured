@@ -1,0 +1,28 @@
+package org.nadim.jsonpayloadconverting;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+
+public class P8ShareDataOneAPIToAPI {
+	String body = "";
+	
+	int bookingId;
+
+	@Test(priority=1)
+	public void createBooking() {
+		RestAssured.given()
+					.baseUri("")
+					.basePath("")
+					.body(body)
+					.contentType(ContentType.JSON)
+				.when()
+					.post()
+				.then()
+				.extract()
+				.jsonPath()
+				.getInt("bookingid");
+	}
+
+}

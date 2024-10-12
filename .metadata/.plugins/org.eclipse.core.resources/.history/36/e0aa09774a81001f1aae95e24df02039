@@ -1,0 +1,24 @@
+package org.nadim.jsonpayloadconverting;
+
+public class P2CreateComplexJsonObjectToMap {
+/*
+ {
+  "id": 1,
+  "fname": "nadim",
+  "lname": "mostafa",
+  "gender": "male",
+  "married-status": false,
+  "address": {
+    "state": "Dhaka",
+    "zip code": 1216,
+    "house no": "57/58",
+    "road": 4
+  }
+}
+ */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

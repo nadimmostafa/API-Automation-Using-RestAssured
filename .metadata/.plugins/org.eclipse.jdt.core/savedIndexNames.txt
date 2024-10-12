@@ -1,0 +1,26 @@
+INDEX VERSION 1.134+G:\02. Automation Testing\Rest-Assured Workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3615599185.index
+1401845023.index
+233470949.index
+2746343848.index
+2943142153.index
+1091672831.index
+2216323819.index
+1893873031.index
+4075045896.index
+3969011453.index
+2803028458.index
+246610295.index
+1764441431.index
+1097319385.index
+2834780811.index
+3719616059.index
+1293487787.index
+346205418.index
+4218487.index
+1534181152.index
+754592882.index
+1098430994.index
+3936657579.index
+3956671683.index

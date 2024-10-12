@@ -1,0 +1,72 @@
+package org.nadim.jsonpayloadconverting;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import io.restassured.RestAssured;
+
+/*
+ [
+  {
+    "id": 1,
+    "fname": "nadim",
+    "lname": "mostafa",
+    "gender": "male",
+    "married-status": false,
+    "address": {
+      "state": "Dhaka",
+      "zip code": 1216,
+      "house no": "57/58",
+      "road": 4
+    }
+  },
+  {
+    "id": 2,
+    "fname": "Asif",
+    "lname": "Iqbal",
+    "gender": "male",
+    "married-status": false,
+    "address": "Rajshahi"
+  }
+]
+ */
+public class P3CreateJsonArrayUsingJavaList {
+
+	public static void main(String[] args) {
+		Map<String, Object> childJson = new HashMap<>();
+		childJson.put("city", "Dhaka");
+		childJson.put("state", "Mirpur-6");
+		childJson.put("zip-code", "1216");
+		
+		Map<String,Object> parentJson = new HashMap<>();
+		parentJson.put("id", 1);
+		parentJson.put("fname", "nadim");
+		parentJson.put("lname", "mostafa");
+		parentJson.put("gender", "male");
+		parentJson.put("married-status", false);
+		parentJson.put("address", childJson);
+		
+		Map<String,Object> parentJson2 = new HashMap<>();
+		parentJson.put("id", 2);
+		parentJson.put("fname", "asif");
+		parentJson.put("lname", "iqbal");
+		parentJson.put("gender", "male");
+		parentJson.put("married-status", true);
+		parentJson.put("address", "Rajshahi");
+		
+		List<Map<String,Object>> jsonArray = new ArrayList<>();
+		
+		List<Map<String, Object>> asList = Arrays.asList(parentJson2,parentJson);
+		
+		RestAssured.given()
+						.body(asList)
+						.log()
+						.all()
+						.post();
+
+	}
+
+}

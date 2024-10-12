@@ -1,0 +1,10 @@
+package org.nadim.jacksonapi;
+
+public class P1ConvertJsonToPojoUsingJackson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

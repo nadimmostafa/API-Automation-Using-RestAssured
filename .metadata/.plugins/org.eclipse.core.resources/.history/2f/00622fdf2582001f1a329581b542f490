@@ -1,0 +1,19 @@
+package org.nadim.jsonto.javapojo;
+
+import org.nadim.pojo.P1EmployeeDetails;
+
+public class P4CreateComplexJsonUsingJavaPojo {
+
+	public static void main(String[] args) {
+		
+		P1EmployeeDetails emp2 = new P1EmployeeDetails();
+		emp2.setEmpId(11);
+		emp2.setEmpName("Asif Iqbal");
+		emp2.setEmpGender("male");
+		emp2.setEmail("asif36@gmail.com");
+		emp2.setSalary(35000.00);
+		emp2.setAdress(address2);
+
+	}
+
+}

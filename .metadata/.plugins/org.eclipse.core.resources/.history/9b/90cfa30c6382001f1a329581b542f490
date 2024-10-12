@@ -1,0 +1,10 @@
+package org.nadim.jsonto.javapojo;
+
+public class P7ConvertNestedJsonToPojo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

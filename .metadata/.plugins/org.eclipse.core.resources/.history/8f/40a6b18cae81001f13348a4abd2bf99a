@@ -1,0 +1,7 @@
+package org.nadim.pojo;
+
+public class P2EmployeeAddress {
+	private String city;
+	private String houseNo;
+	private String roadNo;
+}

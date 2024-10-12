@@ -1,0 +1,17 @@
+package org.nadim.jsonto.javapojo;
+
+import org.nadim.pojo.P1EmployeeDetails;
+
+public class P2CreateNestedJsonUsingJavaPojoClass {
+
+	public static void main(String[] args) {
+		P1EmployeeDetails emp = new P1EmployeeDetails();
+		emp.setEmpId(10);
+		emp.setEmpName("Nadim Mostafa");
+		emp.setEmpGender("male");
+		emp.setEmail("nadim23@gmail.com");
+		emp.setSalary(45000);
+
+	}
+
+}
